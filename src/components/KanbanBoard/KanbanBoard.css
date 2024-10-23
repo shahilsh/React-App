@@ -1,0 +1,49 @@
+.kanban-board {
+  padding: 20px;
+}
+
+.board-content {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.board-column {
+  min-width: 300px;
+  background: #f4f5f8;
+}
+
+.column-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.column-header h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.ticket-count {
+  background: #e3e3e3;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.column-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 20px;
+}
